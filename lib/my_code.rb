@@ -9,10 +9,10 @@ def my_map
   end
 end
 
-source_array.map {|n| n * -1}
-source_array.map {|n| n}
-source_array).map {|n| n * 2}
-source_array.map {|n| n * n}
+source_array.my_map {|n| n * -1}
+source_array.my_map {|n| n}
+source_array).my_map {|n| n * 2}
+source_array.my_map {|n| n * n}
 
 def reduce(source_array)
 
