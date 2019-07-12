@@ -1,10 +1,10 @@
 def my_map
     ary = []
-    
+
     self.each do |elem|
       ary << yield(elem)
     end
-    
+
     ary
   end
 end
