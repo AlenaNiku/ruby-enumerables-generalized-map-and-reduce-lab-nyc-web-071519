@@ -1,4 +1,4 @@
-def my_map
+def my_map(source_array)
     ary = []
 
     self.each do |elem|
