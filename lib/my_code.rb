@@ -1,4 +1,4 @@
-def map
+def map(source_array)
 
 end
 
@@ -7,7 +7,7 @@ map(source_array){|n| n}
 map(source_array){|n| n * 2}
 map(source_array){|n| n * n}
 
-def reduce
+def reduce(source_array)
 
 end
 
