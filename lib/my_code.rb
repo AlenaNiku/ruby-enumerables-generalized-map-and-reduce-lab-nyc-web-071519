@@ -1,4 +1,4 @@
-def map(source_array)
+def map
   yield(number)
 end
 
