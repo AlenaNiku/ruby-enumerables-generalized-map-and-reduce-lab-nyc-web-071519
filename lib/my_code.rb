@@ -11,7 +11,7 @@ def reduce(source_array)
 
 end
 
-reduce(source_array){|memo, n| memo + n}
-reduce(source_array, starting_point){|memo, n| memo + n}
-reduce(source_array){|memo, n| memo && n}
-reduce(source_array){|memo, n| memo || n}
+source_array.reduce(0) {|memo, n| memo + n}
+source_array.reduce(0) {|memo, n| memo + n}
+source_array.reduce(0) {|memo, n| memo && n}
+source_array.reduce(0) {|memo, n| memo || n}
