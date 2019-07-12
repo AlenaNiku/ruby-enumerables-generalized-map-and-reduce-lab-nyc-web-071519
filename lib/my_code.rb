@@ -7,7 +7,7 @@ def my_map
 
     ary
   end
-end
+
 
 source_array.my_map {|n| n * -1}
 source_array.my_map {|n| n}
