@@ -1,5 +1,12 @@
-def map(source_array)
-
+def my_map
+    ary = []
+    
+    self.each do |elem|
+      ary << yield(elem)
+    end
+    
+    ary
+  end
 end
 
 source_array.map {|n| n * -1}
